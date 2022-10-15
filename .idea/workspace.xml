@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2e2d5b1d-dafc-4a7d-a547-61156932eb4d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/conf.d/ronitascrafts_com.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/conf.d/ronitascrafts_com.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,7 @@
       <workItem from="1665826300871" duration="4344000" />
       <workItem from="1665854859147" duration="644000" />
       <workItem from="1665855611649" duration="1842000" />
-      <workItem from="1665857956557" duration="5194000" />
+      <workItem from="1665857956557" duration="5772000" />
     </task>
     <task id="LOCAL-00001" summary="Pihole added">
       <created>1665826221655</created>
@@ -218,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665862556550</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="ronitascrafts.com's port is 8081">
+      <created>1665863258789</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1665863258789</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +250,7 @@
     <MESSAGE value="Nginx reverse proxy added." />
     <MESSAGE value="Shared PI network" />
     <MESSAGE value="Fixed hostnames added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed hostnames added." />
+    <MESSAGE value="ronitascrafts.com's port is 8081" />
+    <option name="LAST_COMMIT_MESSAGE" value="ronitascrafts.com's port is 8081" />
   </component>
 </project>
