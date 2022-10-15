@@ -2,6 +2,15 @@ version: "3.6"
 
 services:
 
+  nginx:
+    image: nginx
+    volumes:
+      - ./nginx/conf.d/ronitascrafts_com.conf:/etc/nginx/conf.d/ronitascrafts_com.conf
+    ports:
+      - "80:80"
+    environment:
+      - NGINX_PORT=80
+
   pihole:
     image: pihole/pihole:latest
     ports:

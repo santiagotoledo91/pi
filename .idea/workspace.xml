@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2e2d5b1d-dafc-4a7d-a547-61156932eb4d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/conf.d/ronitascrafts_com.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/conf.d/ronitascrafts_com.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,21 +33,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TF_FMT": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/santiagotoledo/Projects/pi",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TF_FMT&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/santiagotoledo/Projects/pi/nginx/conf.d&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/nginx/conf.d" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/nginx/conf.d" />
+      <recent name="$PROJECT_DIR$/nginx/conf.d/sites-enabled" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,7 +66,10 @@
       <option name="presentableId" value="Default" />
       <updated>1665826167633</updated>
       <workItem from="1665826169005" duration="126000" />
-      <workItem from="1665826300871" duration="2944000" />
+      <workItem from="1665826300871" duration="4344000" />
+      <workItem from="1665854859147" duration="644000" />
+      <workItem from="1665855611649" duration="1842000" />
+      <workItem from="1665857956557" duration="1583000" />
     </task>
     <task id="LOCAL-00001" summary="Pihole added">
       <created>1665826221655</created>
@@ -87,7 +99,77 @@
       <option name="project" value="LOCAL" />
       <updated>1665844145107</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Allow all origins to make requests to pihole.">
+      <created>1665845586669</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665845586669</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Nginx reverse proxy added.">
+      <created>1665857207805</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665857207805</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Nginx reverse proxy added.">
+      <created>1665857376166</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665857376166</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Nginx reverse proxy added.">
+      <created>1665857789974</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665857789974</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Nginx reverse proxy added.">
+      <created>1665857987655</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665857987655</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Nginx reverse proxy added.">
+      <created>1665858127648</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665858127648</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Nginx reverse proxy added.">
+      <created>1665858303449</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1665858303449</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Nginx reverse proxy added.">
+      <created>1665858833789</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665858833789</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Nginx reverse proxy added.">
+      <created>1665858937204</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1665858937204</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Nginx reverse proxy added.">
+      <created>1665859038204</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1665859038204</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +190,8 @@
     <MESSAGE value="Pihole added" />
     <MESSAGE value="No container name and config on a volume." />
     <MESSAGE value="No container name and config on a volume for pihole." />
-    <option name="LAST_COMMIT_MESSAGE" value="No container name and config on a volume for pihole." />
+    <MESSAGE value="Allow all origins to make requests to pihole." />
+    <MESSAGE value="Nginx reverse proxy added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Nginx reverse proxy added." />
   </component>
 </project>
