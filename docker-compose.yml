@@ -28,3 +28,7 @@ services:
 volumes:
   pihole_etc-pihole:
   pihole_etc-dnsmasq.d:
+
+networks:
+  default:
+    name: pi
