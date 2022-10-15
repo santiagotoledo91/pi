@@ -10,6 +10,7 @@ services:
       - '83:80/tcp'
     environment:
       TZ: 'Europe/Madrid'
+      DNSMASQ_LISTENING: 'all'
     volumes:
       - 'pihole_etc-pihole:/etc/pihole'
       - 'pihole_etc-dnsmasq.d:/etc/dnsmasq.d'

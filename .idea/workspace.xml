@@ -57,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665826167633</updated>
       <workItem from="1665826169005" duration="126000" />
-      <workItem from="1665826300871" duration="2176000" />
+      <workItem from="1665826300871" duration="2944000" />
     </task>
     <task id="LOCAL-00001" summary="Pihole added">
       <created>1665826221655</created>
@@ -80,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665843194462</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="No container name and config on a volume for pihole.">
+      <created>1665844145107</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665844145107</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
