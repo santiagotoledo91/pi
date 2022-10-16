@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e2d5b1d-dafc-4a7d-a547-61156932eb4d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +75,7 @@
       <workItem from="1665826300871" duration="4344000" />
       <workItem from="1665854859147" duration="644000" />
       <workItem from="1665855611649" duration="1842000" />
-      <workItem from="1665857956557" duration="19493000" />
+      <workItem from="1665857956557" duration="19991000" />
     </task>
     <task id="LOCAL-00001" summary="Pihole added">
       <created>1665826221655</created>
@@ -293,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665923857355</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Must rebuild to apply nginx changes.">
+      <created>1665925458362</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1665925458362</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,6 +333,7 @@
     <MESSAGE value="Avoid nginx dns ip cache for backend hostname" />
     <MESSAGE value="Automatic certificate creation" />
     <MESSAGE value="Nop, didn't work, network is not available yet." />
-    <option name="LAST_COMMIT_MESSAGE" value="Nop, didn't work, network is not available yet." />
+    <MESSAGE value="Must rebuild to apply nginx changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Must rebuild to apply nginx changes." />
   </component>
 </project>
