@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e2d5b1d-dafc-4a7d-a547-61156932eb4d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +71,7 @@
       <workItem from="1665826300871" duration="4344000" />
       <workItem from="1665854859147" duration="644000" />
       <workItem from="1665855611649" duration="1842000" />
-      <workItem from="1665857956557" duration="14838000" />
+      <workItem from="1665857956557" duration="16441000" />
     </task>
     <task id="LOCAL-00001" summary="Pihole added">
       <created>1665826221655</created>
@@ -246,7 +248,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665918912980</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="SSL cert added.">
+      <created>1665919053945</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1665919053945</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Info about how to add a new domain added.">
+      <created>1665920261900</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1665920261900</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +290,7 @@
     <MESSAGE value="ronitascrafts.com's port is 8081" />
     <MESSAGE value="FML" />
     <MESSAGE value="SSL cert added." />
-    <option name="LAST_COMMIT_MESSAGE" value="SSL cert added." />
+    <MESSAGE value="Info about how to add a new domain added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Info about how to add a new domain added." />
   </component>
 </project>
