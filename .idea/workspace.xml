@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e2d5b1d-dafc-4a7d-a547-61156932eb4d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +74,7 @@
       <workItem from="1665826300871" duration="4344000" />
       <workItem from="1665854859147" duration="644000" />
       <workItem from="1665855611649" duration="1842000" />
-      <workItem from="1665857956557" duration="18820000" />
+      <workItem from="1665857956557" duration="19493000" />
     </task>
     <task id="LOCAL-00001" summary="Pihole added">
       <created>1665826221655</created>
@@ -289,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665923682930</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Nop, didn't work, network is not available yet.">
+      <created>1665923857355</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1665923857355</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,6 +324,7 @@
     <MESSAGE value="Info about how to add a new domain added." />
     <MESSAGE value="Avoid nginx dns ip cache for backend hostname" />
     <MESSAGE value="Automatic certificate creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Automatic certificate creation" />
+    <MESSAGE value="Nop, didn't work, network is not available yet." />
+    <option name="LAST_COMMIT_MESSAGE" value="Nop, didn't work, network is not available yet." />
   </component>
 </project>

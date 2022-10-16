@@ -32,3 +32,5 @@ To generate the **SSL certificate**, run the following command:
 ```
 docker-compose exec nginx bash -c "certbot --nginx --non-interactive --agree-tos -m mail@exampledomain.com -d exampledomain.com -d www.exampledomain.com"
 ```
+
+To apply any configuration change, rebuild the container using `docker-compose up -d --build nginx`
