@@ -7,7 +7,6 @@ services:
       context: nginx
     hostname: pi_nginx
     volumes:
-      - './nginx/conf.d/:/etc/nginx/conf.d/'
       - 'nginx_letsencrypt:/etc/letsencrypt'
     ports:
       - '80:80'
