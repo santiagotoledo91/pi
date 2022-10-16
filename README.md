@@ -13,9 +13,12 @@ Create a new file under `nginx/conf.d` named as `exampledomain_com.conf` with th
 server {
     server_name exampledomain.com www.exampledomain.com;
     server_tokens off;
+    
+    resolver 127.0.0.11 ipv6=off;
+    set $backend "http://exampledomain_com-nginx";
 
     location / {
-        proxy_pass          http://exampledomain_com-nginx;
+        proxy_pass          $backend;
         proxy_set_header    Host $host;
         proxy_set_header    X-Real-IP $remote_addr;
         proxy_set_header    X-Forwarded-Proto https;
