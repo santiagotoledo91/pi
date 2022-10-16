@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e2d5b1d-dafc-4a7d-a547-61156932eb4d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/conf.d/ronitascrafts_com.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/conf.d/ronitascrafts_com.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +52,7 @@
       <recent name="$PROJECT_DIR$/nginx/conf.d" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/nginx" />
       <recent name="$PROJECT_DIR$/nginx/conf.d" />
       <recent name="$PROJECT_DIR$/nginx/conf.d/sites-enabled" />
     </key>
@@ -69,7 +69,7 @@
       <workItem from="1665826300871" duration="4344000" />
       <workItem from="1665854859147" duration="644000" />
       <workItem from="1665855611649" duration="1842000" />
-      <workItem from="1665857956557" duration="6567000" />
+      <workItem from="1665857956557" duration="14838000" />
     </task>
     <task id="LOCAL-00001" summary="Pihole added">
       <created>1665826221655</created>
@@ -232,7 +232,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665864162930</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="FML">
+      <created>1665864710343</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1665864710343</updated>
+    </task>
+    <task id="LOCAL-00025" summary="SSL cert added.">
+      <created>1665918912980</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1665918912980</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +273,7 @@
     <MESSAGE value="Fixed hostnames added." />
     <MESSAGE value="ronitascrafts.com's port is 8081" />
     <MESSAGE value="FML" />
-    <option name="LAST_COMMIT_MESSAGE" value="FML" />
+    <MESSAGE value="SSL cert added." />
+    <option name="LAST_COMMIT_MESSAGE" value="SSL cert added." />
   </component>
 </project>
