@@ -11,6 +11,8 @@ services:
     ports:
       - '80:80'
       - '443:443'
+    extra_hosts:
+      - host.docker.internal:host-gateway
 
   pihole:
     image: pihole/pihole:latest
@@ -26,6 +28,7 @@ services:
       - 'pihole_etc-pihole:/etc/pihole'
       - 'pihole_etc-dnsmasq.d:/etc/dnsmasq.d'
     restart: unless-stopped
+
 
 volumes:
   pihole_etc-pihole:

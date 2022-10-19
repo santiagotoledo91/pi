@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e2d5b1d-dafc-4a7d-a547-61156932eb4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/nginx/conf.d/netdata_pi_home_arpa.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx/conf.d/pihole_pi_home_arpa.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx/conf.d/scrutiny_pi_home_arpa.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +76,7 @@
       <workItem from="1665854859147" duration="644000" />
       <workItem from="1665855611649" duration="1842000" />
       <workItem from="1665857956557" duration="20964000" />
-      <workItem from="1666179641236" duration="1072000" />
+      <workItem from="1666179641236" duration="2257000" />
     </task>
     <task id="LOCAL-00001" summary="Pihole added">
       <created>1665826221655</created>
@@ -311,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665925938525</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Reverse proxy for netdata, pihole and scrutiny.">
+      <created>1666182135187</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1666182135187</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,6 +350,7 @@
     <MESSAGE value="Nop, didn't work, network is not available yet." />
     <MESSAGE value="Must rebuild to apply nginx changes." />
     <MESSAGE value="More detailed instructions" />
-    <option name="LAST_COMMIT_MESSAGE" value="More detailed instructions" />
+    <MESSAGE value="Reverse proxy for netdata, pihole and scrutiny." />
+    <option name="LAST_COMMIT_MESSAGE" value="Reverse proxy for netdata, pihole and scrutiny." />
   </component>
 </project>
