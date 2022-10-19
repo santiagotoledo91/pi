@@ -5,18 +5,16 @@ services:
   nginx:
     build:
       context: nginx
-    hostname: pi_nginx
+    hostname: pi__nginx
     volumes:
       - 'nginx_letsencrypt:/etc/letsencrypt'
     ports:
       - '80:80'
       - '443:443'
-    extra_hosts:
-      - host.docker.internal:host-gateway
 
   pihole:
     image: pihole/pihole:latest
-    hostname: pi_pihole
+    hostname: pi__pihole
     ports:
       - '53:53/tcp'
       - '53:53/udp'
