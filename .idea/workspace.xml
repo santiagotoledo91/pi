@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2e2d5b1d-dafc-4a7d-a547-61156932eb4d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/conf.d/netdata_pi_home_arpa.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/conf.d/netdata_pi_home_arpa.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/conf.d/pihole_pi_home_arpa.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/conf.d/pihole_pi_home_arpa.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nginx/conf.d/scrutiny_pi_home_arpa.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/conf.d/scrutiny_pi_home_arpa.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +78,7 @@
       <workItem from="1665854859147" duration="644000" />
       <workItem from="1665855611649" duration="1842000" />
       <workItem from="1665857956557" duration="20964000" />
-      <workItem from="1666179641236" duration="5482000" />
+      <workItem from="1666179641236" duration="6822000" />
     </task>
     <task id="LOCAL-00001" summary="Pihole added">
       <created>1665826221655</created>
@@ -337,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666194231825</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="__ as hostname separator: project__container">
+      <created>1666194581514</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1666194581514</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
